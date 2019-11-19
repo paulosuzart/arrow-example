@@ -23,7 +23,7 @@ repositories {
 val arrow_version = "0.10.4-SNAPSHOT"
 
 dependencies {
-    implementation("org.springframework.boot:sprgiing-boot-starter-actuator")
+    implementation("org.springframework.boot:spring-boot-starter-actuator")
     implementation("org.springframework.boot:spring-boot-starter-rsocket")
     implementation("org.springframework.boot:spring-boot-starter-webflux")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
